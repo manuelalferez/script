@@ -16,7 +16,7 @@ Programs and tools that I usually use and how I install it quickly.
 - [x] [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
 - [x] [MEGA](https://mega.nz/sync)
 - [x] [Option 'New Document'](https://ubunlog.com/documento-nuevo-menu-contextual/)
-- [x] [Nvidia drivers](https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux)
+- [x] [nvidia drivers](https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux)
 
 
 
@@ -69,4 +69,7 @@ tar xzvf idea.tar.gz
 cd idea/bin/
 ./idea.sh
 
+# nvidia drivers
+sudo ubuntu-drivers autoinstall
 ```
+
