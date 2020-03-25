@@ -17,6 +17,8 @@ Programs and tools that I usually use and how I install it quickly.
 - [x] [MEGA](https://mega.nz/sync)
 - [x] [Option 'New Document'](https://ubunlog.com/documento-nuevo-menu-contextual/)
 - [x] [nvidia drivers](https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux)
+- [x] [oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
+- [x] [Telegram](https://www.omgubuntu.co.uk/2019/08/how-to-install-telegram-on-ubuntu)
 
 
 
@@ -72,5 +74,14 @@ cd idea/bin/
 
 # nvidia drivers
 sudo ubuntu-drivers autoinstall
+
+# oh my zsh
+apt install zsh
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Telegram 
+sudo add-apt-repository ppa:atareao/telegram
+sudo apt update && sudo apt install telegram
+
 ```
 
