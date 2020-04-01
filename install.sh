@@ -30,3 +30,14 @@ cd idea/bin/
 # nvidia drivers
 sudo ubuntu-drivers autoinstall
 
+# oh my zsh
+apt install zsh
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Telegram 
+sudo add-apt-repository ppa:atareao/telegram
+sudo apt update && sudo apt install telegram
+
+# Node.js & npm 
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt install nodejs
