@@ -18,6 +18,7 @@ Programs and tools that I usually use and how I install it quickly.
 - [x] [oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
 - [x] [Telegram](https://www.omgubuntu.co.uk/2019/08/how-to-install-telegram-on-ubuntu)
 - [x] [Node.js & npm](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/) 
+- [x] [Rednotebook](https://launchpad.net/~rednotebook/+archive/ubuntu/stable)
 
 
 
@@ -85,5 +86,10 @@ sudo apt update && sudo apt install telegram
 # Node.js & npm 
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt install nodejs
+
+# Rednotebook
+sudo add-apt-repository ppa:rednotebook/stable
+sudo apt-get update
+sudo apt-get install rednotebook
 ```
 
