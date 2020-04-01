@@ -6,8 +6,6 @@ Programs and tools that I usually use and how I install it quickly.
 
 ## **List of applications and tools**
 
-
-
 - [x] [Google Chrome](https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-ubuntu-18-04/) 
 - [x] [curl](https://curl.haxx.se/)
 - [x] [Spotify](https://www.spotify.com/es/download/linux/)
@@ -19,6 +17,7 @@ Programs and tools that I usually use and how I install it quickly.
 - [x] [nvidia drivers](https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux)
 - [x] [oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
 - [x] [Telegram](https://www.omgubuntu.co.uk/2019/08/how-to-install-telegram-on-ubuntu)
+- [x] [Node.js & npm](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/) 
 
 
 
@@ -83,5 +82,8 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 sudo add-apt-repository ppa:atareao/telegram
 sudo apt update && sudo apt install telegram
 
+# Node.js & npm 
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt install nodejs
 ```
 
