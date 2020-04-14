@@ -4,21 +4,10 @@ Programs and tools that I usually use and how I install it quickly.
 
 
 
-## **List of applications and tools**
+## Project structure
 
-- [x] [Google Chrome](https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-ubuntu-18-04/) 
-- [x] [curl](https://curl.haxx.se/)
-- [x] [Spotify](https://www.spotify.com/es/download/linux/)
-- [x] [git](https://git-scm.com/downloads)
-- [x] [typora](https://www.typora.io/)
-- [x] [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
-- [x] [MEGA](https://mega.nz/sync)
-- [x] [Option 'New Document'](https://ubunlog.com/documento-nuevo-menu-contextual/)
-- [x] [nvidia drivers](https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux)
-- [x] [oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
-- [x] [Telegram](https://www.omgubuntu.co.uk/2019/08/how-to-install-telegram-on-ubuntu)
-- [x] [Node.js & npm](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/) 
-- [x] [Rednotebook](https://launchpad.net/~rednotebook/+archive/ubuntu/stable)
+* `mac.sh` Applications for **macOS**.
+* `ubuntu.sh`  Applications for **Ubuntu**. 
 
 
 
@@ -40,7 +29,27 @@ If you want to save time in the future from heavy downloads, download the packag
 
 
 
-## Shell code 
+## Ubuntu
+
+### **List of applications and tools**
+
+- [x] [Google Chrome](https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-ubuntu-18-04/) 
+- [x] [curl](https://curl.haxx.se/)
+- [x] [Spotify](https://www.spotify.com/es/download/linux/)
+- [x] [git](https://git-scm.com/downloads)
+- [x] [typora](https://www.typora.io/)
+- [x] [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
+- [x] [MEGA](https://mega.nz/sync)
+- [x] [Option 'New Document'](https://ubunlog.com/documento-nuevo-menu-contextual/)
+- [x] [nvidia drivers](https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux)
+- [x] [oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
+- [x] [Telegram](https://www.omgubuntu.co.uk/2019/08/how-to-install-telegram-on-ubuntu)
+- [x] [Node.js & npm](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/) 
+- [x] [Rednotebook](https://launchpad.net/~rednotebook/+archive/ubuntu/stable)
+
+
+
+### Shell code 
 
 ```bash
 # Google Chrome
@@ -93,3 +102,41 @@ sudo apt-get update
 sudo apt-get install rednotebook
 ```
 
+
+
+## macOS
+
+### **List of applications and tools**
+
+- [x] [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+- [x] [oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
+
+- [x] [Homebrew](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
+
+- [x] [Spotify](http://macappstore.org/spotify/)
+
+- [x] [Telegram](http://macappstore.org/telegram/)
+
+  
+
+### Shell code
+
+```bash
+# Git and the Xcode Command Line Tools
+git --version 
+
+# oh my zsh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+# Homebrew
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Spotify 
+brew cask install spotify
+
+# Telegram 
+brew cask install telegram
+
+
+```
