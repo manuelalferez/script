@@ -109,16 +109,25 @@ sudo apt-get install rednotebook
 ### **List of applications and tools**
 
 - [x] [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-
 - [x] [oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
-
 - [x] [Homebrew](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
-
 - [x] [Spotify](http://macappstore.org/spotify/)
-
 - [x] [Telegram](http://macappstore.org/telegram/)
+- [x] [Clipgrab](http://macappstore.org/clipgrab/)
+- [x] Transmission
+- [x] [vlc](http://macappstore.org/vlc/)
+- [x] [calibre](http://macappstore.org/calibre/)
+- [x] [The unarchiver](http://macappstore.org/the-unarchiver/)
+- [x] [libre office](http://macappstore.org/libreoffice/) 
+- [x] [HandBrake](https://handbrake.fr/)
 
-  
+
+
+### Preparations
+
+**Step 1**. Download HandBrake from [official website](https://handbrake.fr/).
+
+
 
 ### Shell code
 
@@ -138,5 +147,22 @@ brew cask install spotify
 # Telegram 
 brew cask install telegram
 
+# Clipgrab
+brew cask install clipgrab
+
+# Transmission
+brew cask install transmission
+
+# vlc
+brew cask install vlc
+
+# calibre
+brew cask install calibre
+
+# The unarchiver
+brew cask install the-unarchiver
+
+# Libre office
+brew cask install libreoffice
 
 ```
