@@ -47,6 +47,7 @@ If you want to save time in the future from heavy downloads, download the packag
 - [x] [Node.js & npm](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/) 
 - [x] [Rednotebook](https://launchpad.net/~rednotebook/+archive/ubuntu/stable)
 - [x] [VS Code](https://tipsonubuntu.com/2017/03/03/install-ms-visual-studio-code-ubuntu-16-0416-10/)
+- [x] [vlc](https://www.videolan.org/vlc/download-ubuntu.html)
 
 
 
@@ -108,6 +109,9 @@ sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 sudo apt update
 sudo apt install code
+
+# vlc
+sudo snap install vlc
 ```
 
 
