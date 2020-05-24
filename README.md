@@ -48,7 +48,8 @@ If you want to save time in the future from heavy downloads, download the packag
 - [x] [Rednotebook](https://launchpad.net/~rednotebook/+archive/ubuntu/stable)
 - [x] [VS Code](https://tipsonubuntu.com/2017/03/03/install-ms-visual-studio-code-ubuntu-16-0416-10/)
 - [x] [vlc](https://www.videolan.org/vlc/download-ubuntu.html)
-- [ ] flameshot
+- [x] [flameshot](https://askubuntu.com/questions/1036473/ubuntu-18-how-to-change-screenshot-application-to-flameshot)
+- [x] [Brave](https://brave-browser.readthedocs.io/en/latest/installing-brave.html)
 
 
 
@@ -122,6 +123,16 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ command '/usr/bin/flameshot gui'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ binding 'Print'
 
+# Brave
+sudo apt install apt-transport-https curl
+
+curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+
+echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+
+sudo apt update
+
+sudo apt install brave-browser
 ```
 
 
