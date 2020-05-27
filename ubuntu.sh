@@ -74,3 +74,7 @@ sudo apt install brave-browser
 
 # Calibre
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+
+# Vokoscreen-ng
+sudo add-apt-repository ppa:ubuntuhandbook1/apps
+sudo apt update && sudo apt install vokoscreen-ng

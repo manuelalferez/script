@@ -51,6 +51,7 @@ If you want to save time in the future from heavy downloads, download the packag
 - [x] [flameshot](https://askubuntu.com/questions/1036473/ubuntu-18-how-to-change-screenshot-application-to-flameshot)
 - [x] [Brave](https://brave-browser.readthedocs.io/en/latest/installing-brave.html)
 - [x] [Calibre](https://calibre-ebook.com/download_linux)
+- [x] [VokoscreenNG](http://ubuntuhandbook.org/index.php/2020/01/install-vokoscreenng-3-0-ppa-ubuntu-18-04-19-10/)
 
 
 
@@ -133,6 +134,10 @@ sudo apt install brave-browser
 
 # Calibre
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+
+# Vokoscreen-ng
+sudo add-apt-repository ppa:ubuntuhandbook1/apps
+sudo apt update && sudo apt install vokoscreen-ng
 
 ```
 
