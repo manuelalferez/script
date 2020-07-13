@@ -78,3 +78,6 @@ sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | 
 # Vokoscreen-ng
 sudo add-apt-repository ppa:ubuntuhandbook1/apps
 sudo apt update && sudo apt install vokoscreen-ng
+
+# pdftk
+sudo snap install pdftk
