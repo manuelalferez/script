@@ -53,6 +53,7 @@ If you want to save time in the future from heavy downloads, download the packag
 - [x] [Calibre](https://calibre-ebook.com/download_linux)
 - [x] [VokoscreenNG](http://ubuntuhandbook.org/index.php/2020/01/install-vokoscreenng-3-0-ppa-ubuntu-18-04-19-10/)
 - [x] [pdftk](https://linuxhint.com/install_pdftk_ubuntu/)
+- [x] [slack](https://slack.com/intl/es-es/help/articles/212924728-C%C3%B3mo-descargar-Slack-para-Linux--beta-) 
 
 
 
@@ -142,6 +143,9 @@ sudo apt update && sudo apt install vokoscreen-ng
 
 # pdftk
 sudo snap install pdftk    
+
+# slack 
+sudo snap install slack --classic
 ```
 
 

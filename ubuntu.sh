@@ -81,3 +81,6 @@ sudo apt update && sudo apt install vokoscreen-ng
 
 # pdftk
 sudo snap install pdftk
+
+# slack 
+sudo snap install slack --classic
