@@ -84,3 +84,8 @@ sudo snap install pdftk
 
 # slack 
 sudo snap install slack --classic
+
+# fluxgui
+sudo add-apt-repository ppa:nathan-renniewaldock/flux
+sudo apt-get update
+sudo apt-get install fluxgui
