@@ -88,6 +88,7 @@ sudo apt-get install typora
 cd /media/supersu/Buffer
 sudo cp idea.tar.gz /opt/
 tar xzvf idea.tar.gz
+sudo rm idea.tar.gz
 cd idea/bin/
 ./idea.sh
 
