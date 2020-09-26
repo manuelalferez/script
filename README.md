@@ -55,6 +55,7 @@ If you want to save time in the future from heavy downloads, download the packag
 - [x] [pdftk](https://linuxhint.com/install_pdftk_ubuntu/)
 - [x] [slack](https://slack.com/intl/es-es/help/articles/212924728-C%C3%B3mo-descargar-Slack-para-Linux--beta-) 
 - [x] [fluxgui](https://kilianvalkhof.com/2010/linux/flux-for-ubuntu/)
+- [x] [cli (github)](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
 
 
 
@@ -152,6 +153,13 @@ sudo snap install slack --classic
 sudo add-apt-repository ppa:nathan-renniewaldock/flux
 sudo apt-get update
 sudo apt-get install fluxgui
+
+# cli (github)
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+sudo apt-add-repository https://cli.github.com/packages
+sudo apt update
+sudo apt install gh
+
 ```
 
 
