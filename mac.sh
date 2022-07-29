@@ -13,6 +13,8 @@ brew install node
 
 brew install nvm 
 
+brew install gh
+
 
 # Apps 
 brew install --cask visual-studio-code
@@ -38,3 +40,5 @@ brew install --cask slack
 brew install --cask alfred
 
 brew install gnupg
+
+brew install --cask megasync
