@@ -42,3 +42,5 @@ brew install --cask alfred
 brew install gnupg
 
 brew install --cask megasync
+
+brew install --cask reverso
