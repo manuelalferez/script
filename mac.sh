@@ -1,5 +1,5 @@
 # Development tools
-git --version 
+git --version
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -11,12 +11,11 @@ brew install tmux
 
 brew install node
 
-brew install nvm 
+brew install nvm
 
 brew install gh
 
-
-# Apps 
+# Apps
 brew install --cask visual-studio-code
 
 brew install --cask spotify
@@ -44,3 +43,5 @@ brew install gnupg
 brew install --cask megasync
 
 brew install --cask reverso
+
+brew install --cask notion
