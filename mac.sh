@@ -36,12 +36,14 @@ brew install --cask firefox
 
 brew install --cask slack
 
-brew install --cask alfred
+brew install --cask raycast
 
 brew install gnupg
 
 brew install --cask megasync
 
-brew install --cask reverso
+brew install --cask aldente
 
-brew install --cask notion
+brew install --cask betterdisplay
+
+brew install --cask obsidian
