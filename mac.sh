@@ -51,3 +51,5 @@ brew install --cask arc
 brew install --cask calibre
 
 brew install --cask transmission
+
+brew install --cask shottr
