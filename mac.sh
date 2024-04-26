@@ -15,6 +15,8 @@ brew install nvm
 
 brew install gh
 
+brew install gnupg
+
 # Apps
 brew install --cask visual-studio-code
 
@@ -28,8 +30,6 @@ brew install --cask the-unarchiver
 
 brew install --cask libreoffice
 
-brew install --cask zoom
-
 brew install --cask rectangle
 
 brew install --cask firefox
@@ -38,8 +38,6 @@ brew install --cask slack
 
 brew install --cask raycast
 
-brew install gnupg
-
 brew install --cask megasync
 
 brew install --cask aldente
@@ -47,3 +45,9 @@ brew install --cask aldente
 brew install --cask betterdisplay
 
 brew install --cask obsidian
+
+brew install --cask arc
+
+brew install --cask calibre
+
+brew install --cask transmission
