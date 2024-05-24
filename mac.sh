@@ -55,3 +55,5 @@ brew install --cask transmission
 brew install --cask shottr
 
 brew install --cask notion-calendar
+
+brew install yt-dlp
